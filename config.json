@@ -1,0 +1,20 @@
+{
+  "production": false,
+  "env": "dev",
+  "auth": {
+    "clientId": "899425ee-095f-4023-8650-d0006e5283fe",
+    "authority": "https://login.microsoftonline.com/4ae48b41-0137-4599-8661-fc641fe77bea",
+    "redirectUri": "https://dev.veracity.arup.com/"
+  },
+  "api": {
+    "veracity": {
+      "url": "https://api.dev.veracity.arup.com",
+      "retry": 3,
+      "pageSize": 10,
+      "chunkSize": 3
+    }
+  },
+  "appInsights": {
+    "instrumentationKey": "50468286-c945-4794-8a5e-f33ac8e2f1b2"
+  }
+}
